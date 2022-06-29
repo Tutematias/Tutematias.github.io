@@ -27,7 +27,7 @@ ul {
 
 .data {
   margin-top: 15px;
-  width: 40%;
+  width: 60%;
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -209,7 +209,14 @@ hr {
   align-items: center;
 }
 
+#imagenshow{
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: 15px;
 
+  object-fit: cover;
+}
 
 .showcase .btn {
   margin-top: 20px;
@@ -474,10 +481,6 @@ background-color: transparent;
     
   }
  
-
-  .data {
-    display: none;
-  }
   .menu-btn:hover {
     opacity: 0.6;
   }
@@ -536,8 +539,12 @@ background-color: transparent;
   .news-cards {
     grid-template-columns: repeat(2, 1fr);
   }
- 
-
+  .imgtext{
+    flex-direction: column-reverse;
+  }
+  .data {
+    width: 90%;
+  }
 }
 
 
