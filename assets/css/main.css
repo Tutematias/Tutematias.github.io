@@ -131,7 +131,9 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
-
+			.ielts {
+				align-items: end;
+			}
 		}
 
 		@media screen and (max-width: 1280px) {
